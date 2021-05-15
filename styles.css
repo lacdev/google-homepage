@@ -1,248 +1,243 @@
 /* CSS Basic Reset */
 
 *   {
-  margin: 0;
-  padding: 0;
-}
-
-/* Body properties */
-
-body {
-    height: 100%;
-    width: 100%;
     margin: 0;
-    font-family: arial, sans-serif;
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: 400;
-    color: #222222;
-    background-color: none;
-}
-
-/* Links properties */ 
-
-a, a:link, a:visited {
-    text-decoration: none;
-}
-
-a:hover, a:active {
-    text-decoration: underline;
-}
-
-/* Main Flexbox container */
-
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-/* Nav Bar container */
-
-.header {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;  
-    background-color: none;
-    height: 60px; 
-}
-
-.top-links {
-    color: #2d2d2d;
-    padding: 12px 20px 12px 20px ;
-}
-
-.apps-icon {
-    height: 25px;
-    margin: auto;
-    padding: 12px 20px 6px 20px ;
-}
-
-.profile-icon { 
-    height: 40px;
-    margin: auto;
-    padding: 12px 30px 6px 20px ;
-}
-
-
-/* Logo container */
-
-.logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: none;
-    margin-top: 16vh;
-}
-
-.google-logo {
-
-}
-
-/* Search bar container */
-
-.search {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: none;
-    max-height: 160px;
-    padding: 20px;
-}
-
-/* Search bar individual items container */
-
-.search-form {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: min-content;
-    background-color: none;
-    position: relative;
-}
-
-.search-icon {
-    height: 1rem;
-    position: absolute;
-    left:0;
-    background: transparent;
-    padding: 1rem 1rem;
-    align-items: center;
-    justify-content: center;
-}
-
-.mic-icon {
-    height: 1.2rem;
-    position: absolute;
-    right:0;
-    background: transparent;
-    padding: 1rem 1rem;
-    align-items: center;
-    justify-content: center;
-}
-
-.search-bar {
-    margin:0 auto;
-    width:575px;
-    height: 40px;
-    border-radius:30px;
-    border:1px solid #dcdcdc;
-    text-align: left;
-    padding:  0em 0em 0em 3em;
-}
-
-.search-bar:hover {
-    box-shadow: 1px 1px 8px 1px #dcdcdc;
-}
-
-.search-bar:focus-within {
-    box-shadow: 1px 1px 8px 1px #dcdcdc;
-    outline:none;
-}
-
-/* Buttons container */
-
-.buttons {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: none;
-    padding: 10px 20px;
-    height: 70px;
-}
-
-.search-button {
-    background-color: #f8f9fa;
-    border:none;
-    color:#707070;
-    font-size:15px;
-    position: relative;
-    padding: 10px 16px 10px 16px;
-    margin-left: 8px;
-    margin-right: 12px;
-    border-radius:5px;
-    outline:none;
-}
-
-.lucky-button {
-    background-color: #f8f9fa;
-    border:none;
-    color:#707070;
-    font-size:15px;
-    padding: 10px 16px 10px 16px;
-    position: relative;
-    margin-right: 8px;
-    margin-left: 12px;
-    border-radius:5px;
-    outline:none;
-}
-
-.search-button:hover {
-    border: 1px solid rgb(209, 209, 209);
-    color:#808080;
-    box-shadow: 0 2px rgb(209, 209, 209);
+    padding: 0;
   }
-
-
-.lucky-button:hover {
-    border: 1px solid rgb(209, 209, 209);
-    color:#808080;
-    box-shadow: 0 2px rgb(209, 209, 209);
-}
-
-/* Google offered in Spanish container */
-
-.spanish {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color:none;
-    margin-bottom: 50vh;
-}
-
-.latam {
-    color: rgb(11, 57, 206);
-}
-
-/* Last 2 Rows containers with United States and Links */
-
-.semifooter { 
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: baseline;
-    padding: 10px 20px 10px 40px;
-    background-color: #f2f2f2;
-}
-
-.united-states {
-    color: #70757a;
-}
-
-.footer {
-    display: block;
-    flex-direction: row;
-    padding: 10px 20px;
-    background-color: #f2f2f2;
-    border-top: 1px solid #dadce0;
-}
-
-.footer-left {
-    float: left;
-    padding: 0px 20px 0px 20px;
-    color: #70757a;
-}
-
-.footer-right {
-    float: right;
-    padding: 0px 20px 0px 20px;
-    color: #70757a;
-}
-
-/* End of the code */
-
-
-
-
-
+  
+  /* Body properties */
+  
+  body {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      font-family: arial, sans-serif;
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 400;
+      color: #222222;
+      background-color: none;
+  }
+  
+  /* Links properties */ 
+  
+  a, a:link, a:visited {
+      text-decoration: none;
+  }
+  
+  a:hover, a:active {
+      text-decoration: underline;
+  }
+  
+  /* Main Flexbox container */
+  
+  .wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+  }
+  
+  /* Nav Bar container */
+  
+  .header {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;  
+      background-color: none;
+      height: 60px; 
+  }
+  
+  .top-links {
+      color: #2d2d2d;
+      padding: 12px 20px 12px 20px ;
+  }
+  
+  .apps-icon {
+      height: 25px;
+      margin: auto;
+      padding: 12px 20px 6px 20px ;
+  }
+  
+  .profile-icon { 
+      height: 40px;
+      margin: auto;
+      padding: 12px 30px 6px 20px ;
+  }
+  
+  
+  /* Logo container */
+  
+  .logo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: none;
+      margin-top: 16vh;
+  }
+  
+  .google-logo {
+  
+  }
+  
+  /* Search bar container */
+  
+  .search {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: none;
+      max-height: 160px;
+      padding: 20px;
+  }
+  
+  /* Search bar individual items container */
+  
+  .search-form {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      height: min-content;
+      background-color: none;
+      position: relative;
+  }
+  
+  .search-icon {
+      height: 1rem;
+      position: absolute;
+      left:0;
+      background: transparent;
+      padding: 1rem 1rem;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .mic-icon {
+      height: 1.2rem;
+      position: absolute;
+      right:0;
+      background: transparent;
+      padding: 1rem 1rem;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .search-bar {
+      margin:0 auto;
+      width:575px;
+      height: 40px;
+      border-radius:30px;
+      border:1px solid #dcdcdc;
+      text-align: left;
+      padding:  0em 0em 0em 3em;
+  }
+  
+  .search-bar:hover {
+      box-shadow: 1px 1px 8px 1px #dcdcdc;
+  }
+  
+  .search-bar:focus-within {
+      box-shadow: 1px 1px 8px 1px #dcdcdc;
+      outline:none;
+  }
+  
+  /* Buttons container */
+  
+  .buttons {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background-color: none;
+      padding: 10px 20px;
+      height: 70px;
+  }
+  
+  .search-button {
+      background-color: #f8f9fa;
+      border:none;
+      color:#707070;
+      font-size:15px;
+      position: relative;
+      padding: 10px 16px 10px 16px;
+      margin-left: 8px;
+      margin-right: 12px;
+      border-radius:5px;
+      outline:none;
+  }
+  
+  .lucky-button {
+      background-color: #f8f9fa;
+      border:none;
+      color:#707070;
+      font-size:15px;
+      padding: 10px 16px 10px 16px;
+      position: relative;
+      margin-right: 8px;
+      margin-left: 12px;
+      border-radius:5px;
+      outline:none;
+  }
+  
+  .search-button:hover {
+      border: 1px solid rgb(209, 209, 209);
+      color:#808080;
+      box-shadow: 0 2px rgb(209, 209, 209);
+    }
+  
+  
+  .lucky-button:hover {
+      border: 1px solid rgb(209, 209, 209);
+      color:#808080;
+      box-shadow: 0 2px rgb(209, 209, 209);
+  }
+  
+  /* Google offered in Spanish container */
+  
+  .spanish {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color:none;
+      margin-bottom: 50vh;
+  }
+  
+  .latam {
+      color: rgb(11, 57, 206);
+  }
+  
+  /* Last 2 Rows containers with United States and Links */
+  
+  .semifooter { 
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: baseline;
+      padding: 10px 20px 10px 50px;
+      background-color: #f2f2f2;
+  }
+  
+  .united-states {
+      color: #70757a;
+  }
+  
+  .footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 10px 20px 0px 20px;
+      background-color: #f2f2f2;
+      border-top: 1px solid #dadce0;
+      color: #70757a;
+  }
+  
+  .footer-left {
+      padding: 0px 20px 10px 20px;
+      color: #70757a;
+  }
+  
+  .footer-right {
+      padding: 0px 20px 10px 20px;
+      color: #70757a;
+  }
+  
+  /* End of the code */
