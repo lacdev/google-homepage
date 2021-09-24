@@ -37,8 +37,6 @@ a:active {
 .wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 /* Nav Bar container */
@@ -81,9 +79,6 @@ a:active {
   align-items: center;
   background-color: none;
   margin-top: 16vh;
-}
-
-.google-logo {
 }
 
 /* Search bar container */
@@ -158,25 +153,15 @@ a:active {
   height: 70px;
 }
 
+.lucky-button,
 .search-button {
   background-color: #f8f9fa;
   border: none;
   color: #707070;
   font-size: 15px;
-  position: relative;
   padding: 10px 16px 10px 16px;
-  margin-left: 8px;
-  margin-right: 12px;
-  border-radius: 5px;
-  outline: none;
-}
+  border: 1px solid rgb(209, 209, 209);
 
-.lucky-button {
-  background-color: #f8f9fa;
-  border: none;
-  color: #707070;
-  font-size: 15px;
-  padding: 10px 16px 10px 16px;
   position: relative;
   margin-right: 8px;
   margin-left: 12px;
@@ -184,12 +169,7 @@ a:active {
   outline: none;
 }
 
-.search-button:hover {
-  border: 1px solid rgb(209, 209, 209);
-  color: #808080;
-  box-shadow: 0 2px rgb(209, 209, 209);
-}
-
+.search-button:hover,
 .lucky-button:hover {
   border: 1px solid rgb(209, 209, 209);
   color: #808080;
